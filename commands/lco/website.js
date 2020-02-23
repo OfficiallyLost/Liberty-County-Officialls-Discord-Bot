@@ -11,8 +11,8 @@ module.exports = {
 			.setFooter('hey you! yes you. You are a cool kid!')
 			.addField('Website', '[Official LCORP Website](https://sites.google.com/view/lcdojrp/home)', true)
 			.addField('Discord Invite', '[Permanent Discord Invite](https://discord.gg/qd7TRxF)', true)
-			.setImage(`https://tenor.com/rpCx.gif`)
-			.setColor('#0094FF')
+			.setThumbnail(`https://tenor.com/rpCx.gif`)
+			.setColor('#0094FF');
 		message.channel.send(embed);
 	}
 };
